@@ -97,7 +97,7 @@ img{
     html, body{
         width: 480px;
         height: 800px;
-        overflow: hidden; /* Impede o scroll */
+        overflow: hidden; 
         margin: 0;
         padding: 0;
     }
