@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.est1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/background.png);
+    background-size: contain;
+}
+.est2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/background2.png);
+    background-size: cover;
+    
+}
+.est3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/download\ \(2\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.est4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./img/download\ \(4\).jpeg);
+    background-size: contain;   
+}
+.est-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+}
+.est-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 460px;
+    height: 530px;
+    border-radius: 5px;
+}
+.est-center-bloco{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    height: 83%;
+    width: 83%;
+}
+.est-center-bloco-h1{   
+    font-size: 35px;
+}
+.est-center-bloco-p{
+    font-size: 18px;
+    margin-right: 30px;
+}
+.est-center-bloco-strong{
+    font-weight: 800;
+    font-size: 20px;
+    color: red;
+}
+.est-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-left: 650px;
+    margin-right: 50px;
+}
+.est-right-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://via.placeholder.com/150')
+}
+.arrow-opacity{
+    opacity: 0.3;
+}
