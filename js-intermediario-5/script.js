@@ -10,3 +10,5 @@ function trocarPaginaTo3(){
 function trocarPaginaTo4(){
     window.location.href = 'index4.html'
 }
+console.log("Resolução da tela: " + window.screen.width + "x" + window.screen.height);
+console.log("Resolução do viewport: " + window.innerWidth + "x" + window.innerHeight);
